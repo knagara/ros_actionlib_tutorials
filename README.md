@@ -6,10 +6,9 @@
 - `scripts/gen_numbers.py` /random_numberトピックに乱数を投げ続けるノード
 
 ### Averagingサンプルの動かし方
-`roscore`
-
-`rosrun actionlib_tutorials gen_numbers.py`
-
-`rosrun actionlib_tutorials averaging_server`
-
-`rosrun actionlib_tutorials averaging_client`
+```
+roscore
+rosrun actionlib_tutorials gen_numbers.py
+rosrun actionlib_tutorials averaging_server
+rosrun actionlib_tutorials averaging_client
+```
